@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>服务监控</title>
+    <link rel="icon" href="../../images/favicon.ico">
+    <link rel="stylesheet" href="../../lib/layui-v2.5.5/css/layui.css" media="all">
+    <link rel="stylesheet" href="../../css/layuimini.css" media="all">
+    <link rel="stylesheet" href="../../lib/font-awesome-4.7.0/css/font-awesome.min.css" media="all">
+    <link type="text/css" rel="stylesheet" href="../../css/sysMonitor/serviceMonitor.css">
+    <script type="text/javascript" src="../../lib/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+
+    <script src="../../lib/layui-v2.5.5/layui.js?v=1.0.4" charset="utf-8"></script>
+
+    <script type="text/javascript" src="js/serviceMonitor.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.serviceMonitor.init();
+        });
+    </script>
+</head>
+<body>
+    <div class="page-body">
+        <div class="page-block sys_info">
+            <div class="fa fa-sun-o" style="margin: 18px;">系统版本:<span class="sys_version" id="sys_version"></span></div>
+        </div>
+    </div>
+</body>
+</html>

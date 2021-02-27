@@ -1,0 +1,23 @@
+body{
+    width: calc(100% - 28px);
+    height: calc(100% - 28px);
+    padding: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.welcome-module {
+    height: 300px;
+    overflow: auto;
+}
+
+.layui-col-space10 {
+    margin: 6px;
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+    outline: none;
+}
