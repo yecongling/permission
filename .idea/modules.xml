@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/permission.iml" filepath="$PROJECT_DIR$/.idea/permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permission_base/permission_base.iml" filepath="$PROJECT_DIR$/permission_base/permission_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permission_dao/permission_dao.iml" filepath="$PROJECT_DIR$/permission_dao/permission_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permission_domain/permission_domain.iml" filepath="$PROJECT_DIR$/permission_domain/permission_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permission_service/permission_service.iml" filepath="$PROJECT_DIR$/permission_service/permission_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permission_utils/permission_utils.iml" filepath="$PROJECT_DIR$/permission_utils/permission_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permission_web/permission_web.iml" filepath="$PROJECT_DIR$/permission_web/permission_web.iml" />
+    </modules>
+  </component>
+</project>

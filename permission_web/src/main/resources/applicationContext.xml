@@ -69,7 +69,7 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
         <property name="configLocation" value="classpath:mybatis.xml"/>
-        <property name="mapperLocations" value="classpath:com/ycl/soft/dao/**/*.xml"/>
+        <property name="mapperLocations" value="classpath*:mapper/**/*.xml"/>
         <!-- 传入PageHelper的插件 -->
         <property name="plugins">
             <array>
@@ -98,8 +98,6 @@
     </bean>
 
     <bean id="applicationContextHolder" class="com.ycl.soft.utils.SpringContextHolder"/>
-
-    <bean id="SysInit" class="com.ycl.soft.base.SysInit"/>
 
     <tx:annotation-driven transaction-manager="transactionManager"/>
 
