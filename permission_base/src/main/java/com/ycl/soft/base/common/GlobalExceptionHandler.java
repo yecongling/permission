@@ -24,7 +24,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(value = Exception.class)
     public AjaxResult businessExceptionHandler(BusinessException bs){
         log.error(bs.getMessage(), bs);
-        return AjaxResult.defineError(bs);
+        return AjaxResult.error(bs.getMessage(), bs);
     }
 
     /**
@@ -35,7 +35,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(value = Exception.class)
     public AjaxResult otherExceptionHandler(Exception e){
         log.error(e.getMessage(), e);
-        return AjaxResult.otherError(ResultCode.INTERNAL_SERVER_ERROR);
+        return AjaxResult.error(e.getMessage(), e);
     }
 
 }

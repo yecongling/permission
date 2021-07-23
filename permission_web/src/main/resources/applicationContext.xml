@@ -97,7 +97,6 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-    <bean id="applicationContextHolder" class="com.ycl.soft.utils.SpringContextHolder"/>
 
     <tx:annotation-driven transaction-manager="transactionManager"/>
 

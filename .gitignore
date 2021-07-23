@@ -22,6 +22,10 @@
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
 
+target
+
+*.iml
+
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
@@ -73,3 +77,9 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 .gitignore
+permission_base/target/
+permission_dao/target/
+permission_domain/target/
+permission_service/target/
+permission_utils/target/
+permission_web/target/
