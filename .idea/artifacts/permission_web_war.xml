@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="permission_web:war">
+    <output-path>$PROJECT_DIR$/permission_web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>permission_web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="permission_web.war">
+      <element id="artifact" artifact-name="permission_web:war exploded" />
+    </root>
+  </artifact>
+</component>
